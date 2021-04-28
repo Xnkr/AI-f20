@@ -29,7 +29,19 @@ Supporting files from AIMA-Java:
 
 Code description:
 
-To execute the code, extract and open the project in IDE (Intellij recommended) and run main methods in MissionariesAndCannibals/USASearch class
+To execute the code, extract and open the project in IDE (Intellij recommended) and run main methods in MissionariesAndCannibals/USASearch class (or)
+Navigate to the extracted hw1 folder in the terminal (the directory containing the src folder)
+Run the commands
+`find -name *.java > sources.txt`
+`mkdir build`
+`javac -d build @sources.txt`
+`cd build/`
+The java code should be compiled inside the build directory
+To run the code for Problem 2 - Missionaries and cannibals, use the command
+`java ai.hw1.mac.MissionariesAndCannibals`
+To run the code for Problem 3 - Road Map of USA, use the command
+`java ai.hw1.usa.USASearch`
+
 
 Problem 2 - Missionaries and Cannibals:
 
